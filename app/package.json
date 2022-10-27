@@ -1,0 +1,23 @@
+{
+  "name": "cyberpranks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "start",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "X3"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7",
+    "pug": "^3.0.2",
+    "serve-favicon": "^2.5.0"
+  }
+}
