@@ -22,12 +22,16 @@
             margin-left: 400px;
     }
     }
-    @media  (min-width:360px) and (max-width:800px){
+    @media  (min-width:360px) and (max-width:801px){
         #left-nav-div{
-            margin-right: 50px;
+            margin-right: 8px;
         }
         #right-nav-div{
-            margin-left: 100px;
+            margin-left: 20px;
+    }
+    #main-emoji{
+        margin-left: 0px;
+        
     }
     }
     @media  (min-width:1367px) and (max-width:1920px){
@@ -148,6 +152,7 @@
 }
 #main-emoji{
     filter: drop-shadow(0 0 20px #bd5bff) drop-shadow(0 0 50px #bd5bff);
+    
 }
 @keyframes animate {
     0%,10%,100%{
