@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require("path");
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 8080;
 const hostname = '0.0.0.0';
 var favicon = require('serve-favicon');
 app.use(favicon(__dirname + '/public/images/favicon.ico'));
@@ -144,6 +144,6 @@ app.get("/biggest_jerk_fb",(req,res)=>{
 app.get("/big_news_fb",(req,res)=>{
     res.status(200).render('big_news_fb.pug')  
 });
-app.listen(port, hostname, ()=>{
-    console.log(`The app is running on http://localhost:${hostname}:${port}`)
-})
+app.listen(port, () => {
+    console.log('Hello world listening on port', port);
+  });
