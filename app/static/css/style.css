@@ -29,9 +29,12 @@
         #right-nav-div{
             margin-left: 20px;
     }
-    #main-emoji{
-        margin-left: 0px;
+        #main-emoji{
+            margin-left: 0px;
         
+    }
+        #center1{
+            margin-left: 30px;
     }
     }
     @media  (min-width:1367px) and (max-width:1920px){
