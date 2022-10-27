@@ -22,6 +22,14 @@
             margin-left: 400px;
     }
     }
+    @media  (min-width:360px) and (max-width:800px){
+        #left-nav-div{
+            margin-right: 50px;
+        }
+        #right-nav-div{
+            margin-left: 100px;
+    }
+    }
     @media  (min-width:1367px) and (max-width:1920px){
         #left-nav-div{
             margin-right: 400px;
