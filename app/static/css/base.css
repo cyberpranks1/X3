@@ -1,0 +1,23 @@
+@media  (min-width:1024px) and (max-width:1366px){
+    #left-nav-div{
+        margin-right: 100px;
+    }
+    #right-nav-div{
+        margin-left: 400px;
+}
+}
+@media  (min-width:1367px) and (max-width:1920px){
+    #left-nav-div{
+        margin-right: 400px;
+    }
+    #right-nav-div{
+        margin-left: 500px;
+    }
+}
+.font-large{
+    font-size: large;
+}
+/* .fixed{
+    position: absolute;
+    bottom: 50%;
+} */

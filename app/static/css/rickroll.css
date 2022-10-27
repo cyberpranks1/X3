@@ -1,0 +1,25 @@
+.center10{
+    margin-left: 20px;
+}
+@media  (min-width:1024px) and (max-width:1366px){
+    #left-nav-div{
+        margin-right: 100px;
+    }
+    #right-nav-div{
+        margin-left: 400px;
+}
+    .center10{
+        margin-left: 275px;
+    }
+}
+@media  (min-width:1367px) and (max-width:1920px){
+    #left-nav-div{
+        margin-right: 400px;
+    }
+    #right-nav-div{
+        margin-left: 500px;
+    }
+    .center10{
+        margin-left: 500px;
+    }
+}

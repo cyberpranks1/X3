@@ -1,0 +1,20 @@
+extends base.pug
+
+block scripts
+    script(src="https://cdn.tailwindcss.com")
+
+block style
+    style 
+        include ../static/css/rickroll.css
+        include ../static/css/style.css
+block content
+    <video class="center1 mb-12" autoplay muted loop width="500px" id="center1">
+        <source src="../public/videos/movie.mp4" type="video/mp4">
+        //- <source src="movie.ogg" type="video/ogg">
+        //- Your browser does not support the video tag.
+    </video>
+    <div class="mt-20 mb-20">
+        <h1 class="text-3xl font-medium title-font text-white mb-12 text-center glow1">You Got RickRolled!!!</h1>    
+    </div>
+    <br>
+    <br>

@@ -1,0 +1,206 @@
+extends base.pug
+
+block scripts
+    script(src="https://cdn.tailwindcss.com")
+    script(src="../static/js/home.js")
+block style
+    style
+        include ../static/css/style.css
+
+block content
+    <section class="text-gray-400 body-font bg-gray-900">
+    <div class="container px-5 py-12 mx-auto">
+        <div class="flex flex-col text-center w-full mb-20">
+        <h2 class="text-xs text-red-400 tracking-widest font-medium title-font mb-1">Trick your Friends 😎</h2>
+        <h1 class="flex sm:text-3xl text-2xl justify-center font-medium title-font mb-4 text-white " style="font-size: 45px;">
+            <img src="../static/css/img/favicon-3.png" id="main-emoji" class="h-7 w-7 ml-3 mt-2 mr-3 "><div data-text="Cyber_Pranks_101" id="main-heading">Cyber_Pranks_101</div>
+        </h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Here you will find some Awsome <b>pranks</b> that you can use to trick your friends for different social media platforms as mentioned below:-</p>
+        </div>
+        <div class="flex flex-wrap -m-4">
+            <a href="/instagram" class="xl:w-1/3 md:w-1/2 p-4 border-an instagram p-6 rounded-lg">
+                
+                <span ></span>
+                <div class="d-b ">
+            <div>
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-800 text-red-400 mb-4">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                    </svg>
+                </div>
+                <h2 class="text-lg text-white font-medium title-font mb-2">Instagram</h2>
+                <p class="leading-relaxed text-base">Some cool Instagram Pranks await :) go and prank your friends on <b><i>Instagram</i></b></p>
+            </div>
+            </div>
+            </a>
+            <a href="/facebook" class="xl:w-1/3 md:w-1/2 p-4 border-an facebook  p-6 rounded-lg">
+            <span></span>
+                <div class="d-b ">
+            <div>
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-800 text-red-400 mb-4">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                    </svg>
+                </div>
+                <h2 class="text-lg text-white font-medium title-font mb-2">Facebook</h2>
+                <p class="leading-relaxed text-base">Some cool Facebook Pranks await :) go and prank your friends on <b><i>Facebook</i></b></p>
+
+            </div>
+            </div>
+            
+            </a>
+            
+            <a href="/snapchat" class="xl:w-1/3 md:w-1/2 p-4 border-an snapchat  p-6 rounded-lg">
+                <span></span>
+                <div class="d-b">
+            <div>
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-800 text-red-400 mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-snapchat" viewBox="0 0 16 16"> <path d="M15.943 11.526c-.111-.303-.323-.465-.564-.599a1.416 1.416 0 0 0-.123-.064l-.219-.111c-.752-.399-1.339-.902-1.746-1.498a3.387 3.387 0 0 1-.3-.531c-.034-.1-.032-.156-.008-.207a.338.338 0 0 1 .097-.1c.129-.086.262-.173.352-.231.162-.104.289-.187.371-.245.309-.216.525-.446.66-.702a1.397 1.397 0 0 0 .069-1.16c-.205-.538-.713-.872-1.329-.872a1.829 1.829 0 0 0-.487.065c.006-.368-.002-.757-.035-1.139-.116-1.344-.587-2.048-1.077-2.61a4.294 4.294 0 0 0-1.095-.881C9.764.216 8.92 0 7.999 0c-.92 0-1.76.216-2.505.641-.412.232-.782.53-1.097.883-.49.562-.96 1.267-1.077 2.61-.033.382-.04.772-.036 1.138a1.83 1.83 0 0 0-.487-.065c-.615 0-1.124.335-1.328.873a1.398 1.398 0 0 0 .067 1.161c.136.256.352.486.66.701.082.058.21.14.371.246l.339.221a.38.38 0 0 1 .109.11c.026.053.027.11-.012.217a3.363 3.363 0 0 1-.295.52c-.398.583-.968 1.077-1.696 1.472-.385.204-.786.34-.955.8-.128.348-.044.743.28 1.075.119.125.257.23.409.31a4.43 4.43 0 0 0 1 .4.66.66 0 0 1 .202.09c.118.104.102.26.259.488.079.118.18.22.296.3.33.229.701.243 1.095.258.355.014.758.03 1.217.18.19.064.389.186.618.328.55.338 1.305.802 2.566.802 1.262 0 2.02-.466 2.576-.806.227-.14.424-.26.609-.321.46-.152.863-.168 1.218-.181.393-.015.764-.03 1.095-.258a1.14 1.14 0 0 0 .336-.368c.114-.192.11-.327.217-.42a.625.625 0 0 1 .19-.087 4.446 4.446 0 0 0 1.014-.404c.16-.087.306-.2.429-.336l.004-.005c.304-.325.38-.709.256-1.047Zm-1.121.602c-.684.378-1.139.337-1.493.565-.3.193-.122.61-.34.76-.269.186-1.061-.012-2.085.326-.845.279-1.384 1.082-2.903 1.082-1.519 0-2.045-.801-2.904-1.084-1.022-.338-1.816-.14-2.084-.325-.218-.15-.041-.568-.341-.761-.354-.228-.809-.187-1.492-.563-.436-.24-.189-.39-.044-.46 2.478-1.199 2.873-3.05 2.89-3.188.022-.166.045-.297-.138-.466-.177-.164-.962-.65-1.18-.802-.36-.252-.52-.503-.402-.812.082-.214.281-.295.49-.295a.93.93 0 0 1 .197.022c.396.086.78.285 1.002.338.027.007.054.01.082.011.118 0 .16-.06.152-.195-.026-.433-.087-1.277-.019-2.066.094-1.084.444-1.622.859-2.097.2-.229 1.137-1.22 2.93-1.22 1.792 0 2.732.987 2.931 1.215.416.475.766 1.013.859 2.098.068.788.009 1.632-.019 2.065-.01.142.034.195.152.195a.35.35 0 0 0 .082-.01c.222-.054.607-.253 1.002-.338a.912.912 0 0 1 .197-.023c.21 0 .409.082.49.295.117.309-.04.56-.401.812-.218.152-1.003.638-1.18.802-.184.169-.16.3-.139.466.018.14.413 1.991 2.89 3.189.147.073.394.222-.041.464Z"/> </svg>
+                </div>
+                <h2 class="text-lg text-white font-medium title-font mb-2">Snapchat</h2>
+                <p class="leading-relaxed text-base">Some cool Snapchat Pranks await :) go and prank your friends on <b><i>Snapchat</i></b></p>
+            </div>
+            </div>
+            </a>
+            
+            <a href="/other" class="xl:w-1/3 md:w-1/2 p-4 border-an other  p-6 rounded-lg">
+                <span></span>
+                <div class="d-b">
+            <div>
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-800 text-red-400 mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code" viewBox="0 0 16 16"> <path d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8l3.147-3.146zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8l-3.147-3.146z"/> </svg>
+                </div>
+                <h2 class="text-lg text-white font-medium title-font mb-2">Other Physical Pranks</h2>
+                <p class="leading-relaxed text-base">Trick your friends physically with these awsome pranks. These pranks can be performed <b><i>Physically</i></b></p>
+            </div>
+            </div>
+            </a>
+        </div>
+        <!-- <button class="flex mx-auto mt-16 text-white bg-red-500 border-0 py-2 px-8 focus:outline-none hover:bg-red-600 rounded text-lg">Button</button> -->
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section><center>
+        <div class="inline-block">
+            <h1 class="text-cyan-400" id="paid" style="font-size: 40px;" data-paid="&nbsp;Do Pranks, Get Paid&nbsp;">&nbsp;Do Pranks, Get Paid&nbsp;</h1>
+        </div></center>
+        <div  class="text-white flex justify-center items-center"><h2 class="text-xs text-red-400 tracking-widest font-medium title-font mb-1">Via Paypal</h2>
+            <img src="../static/css/img/paypal1.png" class="h-10 w-10">
+        </div>
+        <div class="text-gray-400" align="center">
+            <p style="font-size: 20px;">Wanna make money while pranking someone? Don't worry!</p>
+            <p class="mt-2">Click On the Button below to start making money and pranking someone simultaneously!!!</p>
+        </div ><center>
+        <div class=" mt-5 inline-block" id="hoga">
+            <a href="/rickroll" id="paisa-a" style="--clr:#ff1867">
+            <span class="px-3 py-3">Make money now! *Paisa hi Paisa hoga* 🤑</span><i></i></a>
+        </div></center>
+    </section>
+    <br>
+    <br>
+    <section class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <h1 class="text-3xl font-medium title-font text-white mb-12 text-center glow">Reviews</h1>
+          <br>
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 md:w-1/2 w-full glow-testimonial">
+              <div class="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-500 mb-4" viewBox="0 0 975.036 975.036">
+                  <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                </svg>
+                <p class="leading-relaxed mb-6">"I'm good to go. Dude, your stuff is the bomb! Your company is truly upstanding and is behind its product 100%. Keep up the excellent work."</p>
+                <a class="inline-flex items-center">
+                  <img alt="testimonial" src="https://dummyimage.com/106x106" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                  <span class="flex-grow flex flex-col pl-4">
+                    <span class="title-font font-medium text-white">Eustacia S.</span>
+                    <span class="text-gray-500 text-sm">User</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/2 w-full glow-testimonial-blue">
+              <div class="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-500 mb-4" viewBox="0 0 975.036 975.036">
+                  <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                </svg>
+                <p class="leading-relaxed mb-6">"Pranks impressed me on multiple levels. Pranks is both attractive and highly adaptable. We've seen amazing results already."</p>
+                <a class="inline-flex items-center">
+                  <img alt="testimonial" src="https://dummyimage.com/107x107" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                  <span class="flex-grow flex flex-col pl-4">
+                    <span class="title-font font-medium text-white">Shreya Singh</span>
+                    <span class="text-gray-500 text-sm">User</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/2 w-full mt-16  glow-testimonial">
+                <div class="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-500 mb-4" viewBox="0 0 975.036 975.036">
+                    <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                  </svg>
+                  <p class="leading-relaxed mb-6">"No matter where you go, pranks is the coolest, most happening thing around! Pranks is both attractive and highly adaptable."</p>
+                  <a class="inline-flex items-center">
+                    <img alt="testimonial" src="https://dummyimage.com/107x107" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                    <span class="flex-grow flex flex-col pl-4">
+                      <span class="title-font font-medium text-white">Rosina R.</span>
+                      <span class="text-gray-500 text-sm">User</span>
+                    </span>
+                  </a>
+                </div>
+            </div>
+            <div class="p-4 md:w-1/2 w-full mt-16 glow-testimonial-blue">
+                <div class="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-500 mb-4" viewBox="0 0 975.036 975.036">
+                    <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                  </svg>
+                  <p class="leading-relaxed mb-6">"I STRONGLY recommend pranks to EVERYONE interested in doing pranks with their friends !"</p>
+                  <a class="inline-flex items-center">
+                    <img alt="testimonial" src="https://dummyimage.com/107x107" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                    <span class="flex-grow flex flex-col pl-4">
+                      <span class="title-font font-medium text-white">Marty U.</span>
+                      <span class="text-gray-500 text-sm">User</span>
+                    </span>
+                  </a>
+                </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <br>
+    <hr>
+    <section class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+            <span class="inline-block h-1 w-10 rounded bg-red-500 mt-8 mb-6"></span>
+            <p class="leading-relaxed text-lg"><h1>Disclaimer for Cyber Pranks 101</h1>
+
+                <font face="monospace" size="20px"><h2 >Disclaimers for Cyberpranks101</h2></font>
+                
+                <p>All the information on this website - Cyberpranks101 - is published in good faith and for general information purpose only. Cyberpranks101 does not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this website (Cyberpranks101), is strictly at your own risk. Cyberpranks101 will not be liable for any losses and/or damages in connection with the use of our website.</p>
+                
+                <p>From our website, you can visit other websites by following hyperlinks to such external sites. While we strive to provide only quality links to useful and ethical websites, we have no control over the content and nature of these sites. These links to other websites do not imply a recommendation for all the content found on these sites. Site owners and content may change without notice and may occur before we have the opportunity to remove a link which may have gone 'bad'.</p>
+                
+                <p>Please be also aware that when you leave our website, other sites may have different privacy policies and terms which are beyond our control. Please be sure to check the Privacy Policies of these sites as well as their "Terms of Service" before engaging in any business or uploading any information.</p>
+                
+                <h2>Consent</h2>
+                
+                <p>By using our website, you hereby consent to our disclaimer and agree to its terms.</p>
+                
+                <h2>Update</h2>
+                
+                <p>Should we update, amend or make any changes to this document, those changes will be prominently posted here.</p></p>
+            <span class="inline-block h-1 w-10 rounded bg-red-500 mt-8 mb-6"></span>
+            <div class="bottom">
+            <div class="icons">
+                <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            </div>
+            </div>
+            <script src="https://kit.fontawesome.com/66ac0492b9.js" crossorigin="anonymous"></script>
+            <script src="../static/js/home.js"></script>
+            </div>
+            </div>
+        
+    </section>
